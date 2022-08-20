@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULAIRE</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <section>
+    <div class="contenaire">
+        <center>
+            <h2>Entrer les informations de l'eleve</h2>
+        </center>
+
+        <form action="result.html" onsubmit="result()">
+
+            <input type="text" class="form-control" placeholder="Nom:" id="name">
+            <br>
+            <input type="text" class="form-control" placeholder="Prenom:" id="surname">
+            <br>
+            <input type="text" class="form-control" placeholder="Sexe:" id="sexe">
+            <br>
+            <input type="month" class="form-control" placeholder="Date_naissance:" id="Date_de_naissance">
+            <br>
+            <input type="text" class="form-control" placeholder="Lieux_naissance:" id="Lieux_de_naissance">
+            <br>
+            <input type="text" class="form-control" placeholder="Classe:" id="classe">
+            <br>
+            <button class="btn btn-primary" type="submit">Valider</button>
+            
+    </form>
+    </div>
+
+    <div class="contenaire2">
+        <center>
+            <h2>Entrer les informations du tuteur</h2>
+        </center>
+
+        <form action="result2.html" onsubmit="resulte()">
+
+            <input type="text" class="form-control" placeholder="Nom tuteur:" id="nom_t">
+            <br>
+            <input type="text" class="form-control" placeholder="Prenom:" id="prenom_t">
+            <br>
+            <input type="number" class="form-control" placeholder="Tel:" id="tel" >
+            <br>
+            <input type="email" class="form-control" placeholder="E-mail:" id="email" >
+            <br>
+            <button class="btn btn-primary" type="submit">Valider</button>
+
+       
+        </form>
+    </div>
+</section>
+
+    <script src="./resulte2.js" defer></script>
+    <script src="./end.js" defer></script>
+    <script src="./app.js"defer></script>
+    <script src="./result.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
